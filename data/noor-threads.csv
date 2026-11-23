@@ -1,0 +1,17 @@
+sku,name,category,description,price,stock,colors,tags,pairs_with
+NT-101,Firozi Lawn 3-Piece,lawn suit,"Unstitched summer lawn with embroidered neckline, printed chiffon dupatta and cambric trouser.",4800,unstitched:12,turquoise,summer casual eid lawn,NT-301;NT-402
+NT-102,Gulnar Printed Lawn 2-Piece,lawn suit,"Digital printed lawn shirt and dyed trouser. Breathable for daily wear.",3200,unstitched:20,peach;mint,summer casual daily office,NT-302
+NT-103,Shehnaz Embroidered Lawn 3-Piece,lawn suit,"Heavy front embroidery with organza sleeves and silk dupatta. Festive lawn for Eid and dawats.",7600,unstitched:5,ivory;gold,eid festive dawat embroidered,NT-301;NT-402;NT-501
+NT-201,Zara Straight Kurta,kurta,"Ready-to-wear cotton kurta with straight cut and side slits.",2900,S:4|M:6|L:3|XL:0,black;white,casual office daily ready-to-wear,NT-302;NT-402
+NT-202,Mehr Chikankari Kurta,kurta,"Hand-done chikankari on soft cotton-net. Light and elegant for summer evenings.",5400,S:2|M:3|L:2|XL:1,white;pink,eid festive evening chikankari ready-to-wear,NT-301;NT-401
+NT-203,Rania Velvet Kurta,kurta,"Winter velvet kurta with gota detailing on the neckline and cuffs.",8900,S:1|M:2|L:0,maroon;emerald,winter wedding festive velvet ready-to-wear,NT-303;NT-401;NT-501
+NT-204,Sana Silk Short Shirt,kurta,"Raw silk short shirt with mirror work. Pairs well with flared pants.",6200,S:3|M:0|L:4,mustard;navy,party festive silk ready-to-wear,NT-302;NT-401
+NT-301,Chiffon Embroidered Dupatta,dupatta,"Lightweight chiffon dupatta with scalloped embroidered borders.",1800,free:25,ivory;pink;turquoise,dupatta eid festive,
+NT-302,Cotton Cigarette Trousers,trouser,"Stretch cotton cigarette pants with side pockets.",1500,S:10|M:12|L:8|XL:5,black;white;beige,basics daily office,
+NT-303,Banarsi Jamawar Shawl,dupatta,"Woven jamawar shawl with zari motifs. Winter weddings.",4500,free:6,maroon;black,winter wedding shawl festive,
+NT-401,Golden Khussa,shoes,"Handmade leather khussa with golden tilla work.",2600,36:3|37:5|38:4|39:2|40:0,gold;silver,shoes khussa festive eid wedding,
+NT-402,Everyday Flat Chappal,shoes,"Soft-sole flat chappal for daily wear.",1900,36:6|37:6|38:6|39:4|40:3,tan;black,shoes daily casual,
+NT-501,Pearl Potli Clutch,accessories,"Velvet potli bag with pearl strings. Fits phone and keys.",2200,free:9,maroon;ivory,bag clutch festive wedding eid,
+NT-502,Kundan Jhumka Earrings,accessories,"Gold-plated kundan jhumkas with pearl drops.",1600,free:15,gold,jewellery earrings festive wedding eid,
+NT-601,Black Nida Abaya,abaya,"Classic open-front nida abaya with matching scarf.",5200,S:2|M:4|L:3|XL:2,black,abaya modest daily,NT-602
+NT-602,Jersey Hijab,abaya,"Breathable jersey hijab, no pins needed.",900,free:30,black;beige;grey;navy,hijab modest daily,

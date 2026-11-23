@@ -1,0 +1,10 @@
+sku,name,category,description,price,stock,colors,tags,pairs_with
+KC-101,Street Runner Low,sneakers,"Everyday low-top sneaker with cushioned EVA sole.",6500,40:3|41:5|42:4|43:2|44:1,white;black,casual daily running,KC-301;KC-302
+KC-102,Court Classic,sneakers,"Leather court shoe with a clean retro look.",8900,40:2|41:3|42:0|43:2,white;green,casual retro leather,KC-301;KC-303
+KC-103,Trail Grip Mid,sneakers,"Mid-top trail shoe with lugged outsole for Margalla hikes.",11500,41:2|42:3|43:3|44:2,olive;grey,hiking trail outdoor,KC-302
+KC-104,Mesh Trainer,sports,"Lightweight gym trainer with breathable mesh.",5800,39:4|40:6|41:6|42:5|43:3,black;blue,gym sports running,KC-302
+KC-201,Canvas Slip-On,casual,"Canvas slip-on with memory foam insole.",3900,39:5|40:5|41:4|42:4,navy;beige,casual summer,KC-303
+KC-202,Peshawari Chappal Modern,casual,"Handmade leather Peshawari chappal with cushioned footbed.",4700,40:4|41:4|42:5|43:3|44:2,brown;black,traditional eid casual leather,
+KC-301,Sneaker Cleaning Kit,care,"Foam cleaner, brush and microfibre cloth.",1500,free:20,,care cleaning,
+KC-302,Performance Socks (3 pack),accessories,"Cushioned ankle socks, moisture wicking.",1200,free:40,white;black,socks sports running,
+KC-303,Leather Protector Spray,care,"Water and stain repellent spray for leather and suede.",1700,free:15,,care leather,

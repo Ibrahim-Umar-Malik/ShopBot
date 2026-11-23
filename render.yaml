@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: shopbot
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false            # paste it in the Render dashboard; never committed
+      - key: SHOPBOT_MODEL
+        value: claude-haiku-5-5
+      - key: SESSION_SECRET
+        generateValue: true

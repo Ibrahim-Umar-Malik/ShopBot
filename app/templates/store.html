@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}{{ store.name }} · ShopBot{% endblock %}
+{% block topbar %}<span class="topbar-store">{{ store.name }}</span>{% endblock %}
+{% block body %}
+<main class="store" data-slug="{{ store.slug }}" data-store="{{ store.name }}">
+  <section class="catalog">
+    <div class="store-head">
+      <h1>{{ store.name }}</h1>
+      <p>{{ store.tagline }} · {{ store.city }}</p>
+    </div>
+    <div class="grid">
+      {% for p in products %}
+      <article class="product{% if not p.in_stock %} soldout{% endif %}" data-id="{{ p.id }}">
+        <div class="thumb" style="--sw: {{ swatch(p.colors) }}"><span>{{ p.name[0] }}</span></div>
+        <div class="pinfo">
+          <small>{{ p.category }}</small>
+          <h3>{{ p.name }}</h3>
+          <div class="prow">
+            <strong>{{ p.price | money }}</strong>
+            {% if not p.in_stock %}<em>Sold out</em>{% endif %}
+          </div>
+          <button class="ask" data-name="{{ p.name }}">Ask about this</button>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <aside class="chat" id="chat">
+    <div class="chat-head">
+      <div>
+        <strong>{{ store.name }} assistant</strong>
+        <small><span class="dot"></span>Replies instantly</small>
+      </div>
+      <button id="new-chat" class="ghost" title="Start a new conversation">New chat</button>
+    </div>
+    <div class="messages" id="messages" aria-live="polite">
+      <div class="msg bot intro">Assalam o Alaikum! I can help you find the right piece, check sizes and stock, and stay within budget. What are you shopping for?</div>
+    </div>
+    <div class="chips" id="chips">
+      <button>Something for Eid under 8000</button>
+      <button>What's in stock in size M?</button>
+      <button>Best sellers?</button>
+    </div>
+    <form id="composer" autocomplete="off">
+      <input id="input" maxlength="1000" placeholder="Type your message…" aria-label="Message">
+      <button type="submit" id="send" aria-label="Send">Send</button>
+    </form>
+  </aside>
+  <button class="chat-fab" id="chat-fab">Chat with us</button>
+</main>
+<script src="/static/chat.js"></script>
+{% endblock %}

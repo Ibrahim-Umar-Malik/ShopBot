@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}ShopBot · An AI storefront for small sellers{% endblock %}
+{% block body %}
+<main class="landing">
+  <section class="hero">
+    <p class="eyebrow">For Instagram and WhatsApp sellers</p>
+    <h1>Your store, with a sales assistant that never sleeps.</h1>
+    <p class="lede">Upload your catalog and get a store page whose AI assistant answers “price?” and “size M available?”,
+      recommends outfits within budget and suggests the matching add-on, at 2 pm or 2 am.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Live demo stores</h2>
+    <div class="store-list">
+      {% for s in stores %}
+      <a class="store-card" href="/s/{{ s.slug }}">
+        <span class="store-initial">{{ s.name[0] }}</span>
+        <span>
+          <strong>{{ s.name }}</strong>
+          <small>{{ s.tagline }}</small>
+          <small class="muted">{{ s.city }} · {{ s.product_count }} products</small>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="how">
+    <div><span>1</span><h3>Upload</h3><p>A simple CSV: name, price, sizes and stock, and what pairs with what.</p></div>
+    <div><span>2</span><h3>Share</h3><p>Put your store link in your Instagram bio and WhatsApp status.</p></div>
+    <div><span>3</span><h3>Sell</h3><p>The assistant answers, recommends and upsells using only your real catalog.</p></div>
+  </section>
+</main>
+{% endblock %}
